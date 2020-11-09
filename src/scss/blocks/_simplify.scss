@@ -1,0 +1,42 @@
+.simplify{
+    width: 100%;
+    height: 100%;
+    margin-top: 4rem;
+    padding: 6.25rem 1rem;
+
+    color: white;
+    background-color: var(--bright-red);
+    background-image: url('../../assets/images/bg-simplify-section-mobile.svg');
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: contain    ;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    &__title {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    
+    
+    @include table {
+        background-image: url('../../assets/images/bg-simplify-section-desktop.svg');
+    
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 8rem;
+        padding: 6.25rem 10rem;
+    }
+}
+
+.btn--simplify {
+    margin-top: 1rem    ;
+    background-color: white;
+    color: var(--bright-red);
+}

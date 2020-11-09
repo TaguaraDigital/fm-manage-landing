@@ -1,0 +1,16 @@
+.toggle-menu{
+    width: 1.5625rem;
+    height: 1.125rem;
+ 
+    z-index: 100;
+ 
+    cursor: pointer;
+
+    @include table {
+       display: none;
+    }
+ 
+    &:hover{
+       transform: scale(.95);
+    }
+ }
